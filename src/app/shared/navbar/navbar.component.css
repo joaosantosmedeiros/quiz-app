@@ -1,0 +1,22 @@
+.container__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25em;
+}
+
+.list__item {
+  list-style: none;
+}
+
+.list__item > a {
+  padding: .75em;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.list__item > a:hover {
+  cursor: pointer;
+  background-color: brown;
+  color: whitesmoke;
+  transition: all .25s;
+}
