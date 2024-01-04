@@ -1,22 +1,35 @@
 .container__list {
   display: flex;
   justify-content: space-between;
-  padding: 1.25em;
+  padding: .25em;
+  background-color: #e0ecff;
 }
 
 .list__item {
   list-style: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
 }
 
 .list__item > a {
-  padding: .75em;
+  background-color: inherit;
+  padding: .5em;
   border-radius: 15px;
   text-decoration: none;
+  font-size: 36px;
+
+  display: flex;
+  align-items: center;
 }
 
-.list__item > a:hover {
-  cursor: pointer;
-  background-color: brown;
-  color: whitesmoke;
-  transition: all .25s;
+.list__item > a > span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+  background-color: inherit ;
+}
+
+i {
+  background-color: inherit ;
 }
