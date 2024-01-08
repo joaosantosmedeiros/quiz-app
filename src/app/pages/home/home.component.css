@@ -1,0 +1,48 @@
+.home__container > img {
+  width: 100vw;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.home__container > h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container__options {
+  margin: 20px 0 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.container__options > li {
+  list-style: none;
+  width: 80vw;
+}
+
+.container__options > li > a {
+  border-radius: 99px;
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+
+  background-color: white;
+  color: #c7cdd8;
+}
+
+.container__options > li > a:hover {
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.container__options > li > a > span {
+  font-weight: 700;
+  border-radius: 99px;
+  padding: 2px 5px;
+  margin-right: 10px;
+}
