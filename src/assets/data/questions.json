@@ -1,0 +1,62 @@
+{
+  "universes": {
+    "starWars": {
+      "questions": [
+        {"id": 1, "img": "../../../assets/img/st1.jpg", "title": "Como você aborda o poder?", "options": [
+          {"letter": "a", "option": "Poder é conquistado pela dominação.", "alias": "B"},
+          {"letter": "b", "option": "Poder é conquistado pela proteção e paz.", "alias": "A"},
+          {"letter": "c", "option": "Poder é conquistado pela manipulação.", "alias": "B"},
+          {"letter": "d", "option": "Poder é conquistado pela compaixão.", "alias": "A"}
+        ]},
+        {"id": 2, "img": "../../../assets/img/st2jpg", "title": "Diante de um dilema moral, qual é sua escolha?", "options": [
+          {"letter": "a", "option": "Priorizo meus interesses, custe o que custar.", "alias": "B"},
+          {"letter": "b", "option": "Opto por agir com compaixão, mesmo que isso signifique sacrificar algo.", "alias": "A"},
+          {"letter": "c", "option": "Escolho o caminho que beneficia a mim mesmo.", "alias": "B"},
+          {"letter": "d", "option": "Escolho o caminho que beneficia a todos, mesmo que eu tenha que renunciar a algo.", "alias": "A"}
+        ]},
+        {"id": 3, "img": "../../../assets/img/st3.jpg", "title": "Como você lida com suas emoções intensas?", "options": [
+          {"letter": "a", "option": "Deixo que minhas emoções controlem minhas ações.", "alias": "B"},
+          {"letter": "b", "option": "Busco equilíbrio emocional e ação ponderada.", "alias": "A"},
+          {"letter": "c", "option": "Uso minhas emoções como fonte de poder.", "alias": "B"},
+          {"letter": "d", "option": "Canalizo minhas emoções para alcançar a serenidade.", "alias": "A"}
+        ]},
+        {"id": 4, "img": "../../../assets/img/st4.jpg", "title": "Na resolução de conflitos, qual é sua abordagem?", "options": [
+          {"letter": "a", "option": "Uso a força para impor minha vontade.", "alias": "B"},
+          {"letter": "b", "option": "Busco soluções pacíficas e diplomáticas.", "alias": "A"},
+          {"letter": "c", "option": "Acredito que a força é a única solução.", "alias": "B"},
+          {"letter": "d", "option": "Prefiro a negociação e o entendimento mútuo.", "alias": "A"}
+        ]},
+        {"id": 5, "img": "../../../assets/img/st5.jpg", "title": "O que você valoriza mais em um relacionamento?", "options": [
+          {"letter": "a", "option": "Lealdade inquestionável.", "alias": "B"},
+          {"letter": "b", "option": "Compreensão mútua e respeito.", "alias": "A"},
+          {"letter": "c", "option": "Relações baseadas em submissão.", "alias": "B"},
+          {"letter": "d", "option": "Relações baseadas em colaboração e apoio mútuo.", "alias": "A"}
+        ]},
+        {"id": 6, "img": "../../../assets/img/st6.jpg", "title": "Como você enxerga a relação entre o indivíduo e a comunidade?", "options": [
+          {"letter": "a", "option": "Acredito na supremacia do indivíduo sobre o coletivo.", "alias": "B"},
+          {"letter": "b", "option": "Valorizo a harmonia e a cooperação entre as pessoas.", "alias": "A"},
+          {"letter": "c", "option": "Acredito na superioridade individual como força motriz.", "alias": "B"},
+          {"letter": "d", "option": "Vejo a colaboração como a chave para o sucesso.", "alias": "A"}
+        ]},
+        {"id": 7, "img": "../../../assets/img/st7.jpg", "title": "Diante de um desafio, como você reage?", "options": [
+          {"letter": "a", "option": "Vejo-o como uma oportunidade para demonstrar minha força.", "alias": "B"},
+          {"letter": "b", "option": "Encaro-o como uma chance de aprender e crescer.", "alias": "A"},
+          {"letter": "c", "option": "Encaro-o como uma oportunidade para superação pessoal e coletiva.", "alias": "A"}
+        ]},
+        {"id": 8, "img": "../../../assets/img/st8.jpg", "title": "O que você busca alcançar em sua jornada pessoal?", "options": [
+          {"letter": "a", "option": "Busco o poder máximo, mesmo que isso signifique seguir caminhos questionáveis.", "alias": "B"},
+          {"letter": "b", "option": "Busco o equilíbrio e a sabedoria para viver em harmonia.", "alias": "A"},
+          {"letter": "c", "option": "Busco a dominação e controle sobre os outros.", "alias": "B"},
+          {"letter": "d", "option": "Busco contribuir para o bem-estar e o progresso da sociedade.", "alias": "A"}
+        ]},
+        {"id": 9, "img": "../../../assets/img/st9.jpg", "title": "Qual é sua visão sobre o uso da tecnologia avançada?", "options": [
+          {"letter": "a", "option": "Deve ser usada para impor controle e dominação.", "alias": "B"},
+          {"letter": "b", "option": "Deve ser usada para promover o bem-estar e a evolução da sociedade.", "alias": "A"},
+          {"letter": "c", "option": "A tecnologia é uma ferramenta para manipulação.", "alias": "B"},
+          {"letter": "d", "option": "A tecnologia deve ser usada com responsabilidade, visando o benefício comum.", "alias": "A"}
+        ]}
+      ]
+    }
+  }
+}
+
