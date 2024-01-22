@@ -7,6 +7,10 @@
 
   background-color: #ECF3FF;
   color: #8E9297;
-  
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
 }
