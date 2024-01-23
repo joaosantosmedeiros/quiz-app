@@ -8,7 +8,7 @@
           {"letter": "c", "option": "Poder é conquistado pela manipulação.", "alias": "B"},
           {"letter": "d", "option": "Poder é conquistado pela compaixão.", "alias": "A"}
         ]},
-        {"id": 2, "img": "../../../assets/img/st2jpg", "title": "Diante de um dilema moral, qual é sua escolha?", "options": [
+        {"id": 2, "img": "../../../assets/img/st2.jpg", "title": "Diante de um dilema moral, qual é sua escolha?", "options": [
           {"letter": "a", "option": "Priorizo meus interesses, custe o que custar.", "alias": "B"},
           {"letter": "b", "option": "Opto por agir com compaixão, mesmo que isso signifique sacrificar algo.", "alias": "A"},
           {"letter": "c", "option": "Escolho o caminho que beneficia a mim mesmo.", "alias": "B"},
