@@ -1,0 +1,61 @@
+<div class="star_wars__container">
+  <div *ngIf="!isFinished" class="container__questions">
+    <img [src]="selectedQuestion.img" alt="" />
+    <h1>{{ selectedQuestion.title }}</h1>
+    <div class="question__options">
+      <div
+        (click)="selectAnswer(option.alias)"
+        class="options__option"
+        *ngFor="let option of selectedQuestion.options"
+      >
+        <p>
+          <span>{{ option.letter }}</span>
+        </p>
+        <p>{{ option.option }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="result__container sith" *ngIf="isFinished">
+    <div class="result__option sith" *ngIf="result == 'sith'">
+      <div class="result__img">
+        <img [src]="'../../../assets/img/st1.jpg'" alt="" />
+      </div>
+      <div class="result__body">
+        <h1>Você é um <span class="red">Sith</span>!</h1>
+        <p class="red">
+          Os Sith são usuários da Força seduzidos pelo poder e pelo domínio.
+          Diferentemente dos Jedi, os Sith buscam aprimorar seus poderes para
+          atingir seus objetivos pessoais, muitas vezes à custa dos outros.
+          Guiados pela emoção, paixão e ambição, os Sith abraçam o lado sombrio
+          da Força, buscando o poder absoluto. Acreditam na liberdade individual
+          acima de tudo, desprezando as restrições do Código Jedi. Armados com
+          sabres de luz vermelhos, símbolo de sua corrupção pela escuridão, os
+          Sith buscam expandir seu domínio sobre a galáxia, frequentemente
+          envolvendo-se em conflitos e traições para alcançar seus objetivos. A
+          jornada de um Sith é caracterizada por escolhas moralmente ambíguas e
+          pela constante busca por poder.
+        </p>
+      </div>
+    </div>
+
+    <div class="result__option jedi" *ngIf="result == 'jedi'">
+      <div class="result__img" *ngIf="result == 'jedi'">
+        <img [src]="'../../../assets/img/st3.jpg'" alt="" />
+      </div>
+      <div class="result__body">
+        <h1>Você é um <span class="green">Jedi</span>!</h1>
+        <p class="green">
+          Os Jedi são os defensores da paz e da justiça na galáxia. Guiados pelo
+          Código Jedi, buscam equilíbrio e harmonia, utilizando a Força para
+          promover o bem e proteger os inocentes. Treinam arduamente em
+          disciplinas físicas e mentais, aderindo a princípios como compaixão,
+          altruismo e autodisciplina. Armados com sabres de luz, símbolo de sua
+          conexão com a Força, os Jedi enfrentam as trevas para preservar a luz.
+          A jornada de um Jedi é marcada por escolhas éticas e sacrifícios, em
+          busca de um universo mais pacífico.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
