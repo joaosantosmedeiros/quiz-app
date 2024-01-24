@@ -56,7 +56,64 @@
           {"letter": "d", "option": "A tecnologia deve ser usada com responsabilidade, visando o benefício comum.", "alias": "A"}
         ]}
       ]
+    },
+    "harryPotter": {
+      "questions": [
+        {"id": 1, "img": "../../../assets/img/hp1.jpg", "title": "Qual é a sua posição sobre a utilização da Feitiçaria Proibida?", "options": [
+          {"letter": "a", "option": "Nunca a utilizei e acredito que deve ser evitada.", "alias": "A"},
+          {"letter": "b", "option": "Já experimentei, mas prefiro me manter distante.", "alias": "A"},
+          {"letter": "c", "option": "Uso ocasionalmente para causas justas.", "alias": "B"},
+          {"letter": "d", "option": "Utilizo frequentemente para alcançar meus objetivos, não importa o meio.", "alias": "B"}
+        ]},
+        {"id": 2, "img": "../../../assets/img/hp2.jpg", "title": "Como você reage diante de criaturas mágicas perigosas?", "options": [
+          {"letter": "a", "option": "Evito confronto e tento encontrar uma solução pacífica.", "alias": "A"},
+          {"letter": "b", "option": "Tomo precauções, mas não hesito em me defender se necessário.", "alias": "A"},
+          {"letter": "c", "option": "Gosto de estudá-las e respeitá-las à distância.", "alias": "B"},
+          {"letter": "d", "option": "Vejo-as como ferramentas úteis para meus propósitos.", "alias": "B"}
+        ]},
+        {"id": 3, "img": "../../../assets/img/hp3.jpg", "title": "Qual é a sua opinião sobre a prática da Adivinhação?", "options": [
+          {"letter": "a", "option": "Não acredito que seja confiável e evito.", "alias": "A"},
+          {"letter": "b", "option": "Aceito-a como uma possibilidade, mas com cautela.", "alias": "A"},
+          {"letter": "c", "option": "Acredito em sua utilidade e a pratico ocasionalmente.", "alias": "B"},
+          {"letter": "d", "option": "Confio plenamente em previsões e as uso para meu benefício.", "alias": "B"}
+        ]},
+        {"id": 4, "img": "../../../assets/img/hp4.jpg", "title": "Como você se relaciona com os trouxas (não-mágicos)?", "options": [
+          {"letter": "a", "option": "Vivo pacificamente entre eles, mantendo o segredo.", "alias": "A"},
+          {"letter": "b", "option": "Prefiro manter distância, mas respeito suas vidas.", "alias": "A"},
+          {"letter": "c", "option": "Acho que somos superiores e não me importo em mostrá-lo.", "alias": "B"},
+          {"letter": "d", "option": "Vejo-os como recursos a serem utilizados para meus fins.", "alias": "B"}
+        ]},
+        {"id": 5, "img": "../../../assets/img/hp5.jpg", "title": "Qual é sua visão sobre duelos mágicos?", "options": [
+          {"letter": "a", "option": "Apenas para autodefesa e situações extremas.", "alias": "A"},
+          {"letter": "b", "option": "Participaria apenas em competições amigáveis.", "alias": "A"},
+          {"letter": "c", "option": "Gosto de aprimorar minhas habilidades e participo frequentemente.", "alias": "B"},
+          {"letter": "d", "option": "Utilizo duelos como meio de alcançar poder e controle.", "alias": "B"}
+        ]},
+        {"id": 6, "img": "../../../assets/img/hp6.jpg", "title": "Como você lida com as restrições impostas pelas leis mágicas?", "options": [
+          {"letter": "a", "option": "Respeito e sigo todas as leis rigorosamente.", "alias": "A"},
+          {"letter": "b", "option": "Seguir as leis é importante, mas há momentos em que podem ser contornadas.", "alias": "A"},
+          {"letter": "c", "option": "Algumas leis são desnecessárias e não hesito em quebrá-las.", "alias": "B"},
+          {"letter": "d", "option": "Vejo as leis como obstáculos e as ignoro quando necessário.", "alias": "B"}
+        ]},
+        {"id": 7, "img": "../../../assets/img/hp7.jpg", "title": "Qual é a sua atitude em relação à amizade entre bruxos e bruxas de sangue puro e nascidos trouxas?", "options": [
+          {"letter": "a", "option": "Acredito na igualdade e sou amigo de todos, independentemente da origem.", "alias": "A"},
+          {"letter": "b", "option": "Tento ser tolerante, mas as diferenças podem ser complicadas.", "alias": "A"},
+          {"letter": "c", "option": "Prefiro me associar principalmente com sangue puro, mas faço exceções.", "alias": "B"},
+          {"letter": "d", "option": "Acho que os nascidos trouxas são inferiores e evito contato próximo.", "alias": "B"}
+        ]},
+        {"id": 8, "img": "../../../assets/img/hp8.jpg", "title": "Como você encara as Relíquias da Morte?", "options": [
+          {"letter": "a", "option": "Vejo-as como lendas e não busco poder nelas.", "alias": "A"},
+          {"letter": "b", "option": "Tenho curiosidade sobre seu significado, mas não as procuro ativamente.", "alias": "A"},
+          {"letter": "c", "option": "Acredito que possuir as Relíquias me concederá grande poder.", "alias": "B"},
+          {"letter": "d", "option": "Busco as Relíquias para alcançar a imortalidade e domínio.", "alias": "B"}
+        ]},
+        {"id": 7, "img": "../../../assets/img/hp9.jpg", "title": "O que você faria diante da escolha entre poder e amor?", "options": [
+          {"letter": "a", "option": "Escolheria o amor, pois é mais valioso que qualquer poder.", "alias": "A"},
+          {"letter": "b", "option": "Tentaria equilibrar ambos, pois ambos são importantes.", "alias": "A"},
+          {"letter": "c", "option": "Escolheria o poder, pois é a chave para a verdadeira grandeza.", "alias": "B"},
+          {"letter": "d", "option": "Abandonaria o amor em busca de mais poder e controle..", "alias": "B"}
+        ]}
+      ]
     }
   }
 }
-
