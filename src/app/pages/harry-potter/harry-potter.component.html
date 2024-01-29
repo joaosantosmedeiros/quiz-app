@@ -1,0 +1,44 @@
+<div class="harry_potter__container">
+  <div *ngIf="!isFinished" class="container__questions">
+    <img [src]="selectedQuestion.img" alt="" />
+    <h1>{{ selectedQuestion.title }}</h1>
+    <div class="question__options">
+      <div
+        (click)="selectAnswer(option.alias)"
+        class="options__option"
+        *ngFor="let option of selectedQuestion.options"
+      >
+        <p>
+          <span>{{ option.letter }}</span>
+        </p>
+        <p>{{ option.option }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="result__container" *ngIf="isFinished">
+    <div class="result__option" *ngIf="result == 'mal'">
+      <div class="result__img">
+        <img [src]="'../../../assets/img/hp7.jpg'" alt="" />
+      </div>
+      <div class="result__body">
+        <h1>Você é um <span class="red">Bruxo das trevas</span>!</h1>
+        <p class="red">
+          Você demonstrou uma inclinação para as artes das trevas e uma atitude mais egoísta em relação ao uso da magia. Seus métodos muitas vezes desafiam as normas éticas e legais, buscando poder e controle a qualquer custo. Encontrar um equilíbrio entre suas ambições e princípios éticos pode ser um desafio, mas lembre-se de que o caminho das trevas geralmente leva a consequências sombrias. Considere refletir sobre suas escolhas e talvez reconsiderar seu caminho para evitar cair nas garras da escuridão.
+        </p>
+      </div>
+    </div>
+
+    <div class="result__option" *ngIf="result == 'bem'">
+      <div class="result__img" *ngIf="result == 'bem'">
+        <img [src]="'../../../assets/img/hp1.jpg'" alt="" />
+      </div>
+      <div class="result__body">
+        <h1>Você é um <span class="green">Bruxo do bem</span>!</h1>
+        <p class="green">
+          Parabéns! Sua abordagem ética e compromisso com valores nobres indicam que você é um bruxo do bem. Você valoriza a paz, a igualdade e o respeito pela magia, usando seus dons para proteger e ajudar os outros. Seus princípios solidários e amorosos fazem de você um defensor da justiça e um aliado confiável na luta contra as forças das trevas. Continue a cultivar suas habilidades mágicas para contribuir para um mundo mágico mais seguro e harmonioso.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
