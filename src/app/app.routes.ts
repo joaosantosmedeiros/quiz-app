@@ -8,6 +8,5 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'hp', component: HarryPotterComponent },
   { path: 'st', component: StarWarsComponent },
-  { path: 'pj', redirectTo: 'results' },
   { path: 'results', component: ResultsComponent },
 ];
