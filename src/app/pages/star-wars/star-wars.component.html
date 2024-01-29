@@ -16,7 +16,7 @@
     </div>
   </div>
 
-  <div class="result__container sith" *ngIf="isFinished">
+  <div class="result__container" *ngIf="isFinished">
     <div class="result__option sith" *ngIf="result == 'sith'">
       <div class="result__img">
         <img [src]="'../../../assets/img/st1.jpg'" alt="" />
@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <div class="result__option jedi" *ngIf="result == 'jedi'">
+    <div class="result__option" *ngIf="result == 'jedi'">
       <div class="result__img" *ngIf="result == 'jedi'">
         <img [src]="'../../../assets/img/st3.jpg'" alt="" />
       </div>
