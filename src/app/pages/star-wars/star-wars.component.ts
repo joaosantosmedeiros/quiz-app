@@ -48,7 +48,6 @@ export class StarWarsComponent {
 
     this.addCookie(response);
 
-    console.log(document.cookie);
     return response;
   }
 

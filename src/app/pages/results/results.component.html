@@ -1,0 +1,21 @@
+<div class="results__page">
+  <h1>Resultados</h1>
+  <div *ngFor="let result of results">
+    <div class="results__checks" *ngIf="result == 'Jedi'">
+      <img [src]="'../../../assets/img/st3.jpg'" alt="">
+      <p class="g">{{ result }}</p>
+    </div>
+    <div class="results__checks" *ngIf="result == 'Sith'">
+      <img [src]="'../../../assets/img/st1.jpg'" alt="">
+      <p class="r">{{ result }}</p>
+    </div>
+    <div class="results__checks" *ngIf="result == 'Bruxo do Bem'">
+      <img [src]="'../../../assets/img/hp1.jpg'" alt="">
+      <p class="g">{{ result }}</p>
+    </div>
+    <div class="results__checks" *ngIf="result == 'Bruxo do Mal'">
+      <img [src]="'../../../assets/img/hp7.jpg'" alt="">
+      <p class="r">{{ result }}</p>
+    </div>
+  </div>
+</div>

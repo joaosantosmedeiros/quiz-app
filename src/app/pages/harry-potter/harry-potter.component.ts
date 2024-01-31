@@ -48,7 +48,6 @@ export class HarryPotterComponent {
 
     this.addCookie(response);
 
-    console.log(document.cookie);
     return response;
   }
 
