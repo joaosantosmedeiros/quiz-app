@@ -28,14 +28,50 @@
   margin-bottom: .5em;
 }
 
+@media only screen and (min-width: 600px) {
+  .results__checks {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .results__checks {
+    width: 30%;
+  }
+}
+
 .results__checks > img{
   width: 75px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
 
+@media only screen and (min-width: 600px) {
+  .results__checks > img {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .results__checks > img {
+    width: 30%;
+  }
+}
+
 .results__checks > p {
   background-color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .results__checks > p {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .results__checks > p {
+    font-size: 1.5em;
+  }
 }
 
 .r {
