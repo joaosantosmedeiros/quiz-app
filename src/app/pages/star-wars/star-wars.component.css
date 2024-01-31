@@ -4,6 +4,25 @@
   margin-bottom: 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  display: flex;
+}
+
+@media only screen and (min-width: 600px) {
+  .container__questions > img,
+  .result__img > img {
+    max-width: 70vw;
+    max-height: 40vh;
+    margin: 0 auto 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .question__options {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
 }
 
 .container__questions > h1,
