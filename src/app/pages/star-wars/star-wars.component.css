@@ -31,6 +31,17 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .container__questions > h1,
+  .result__body > h1 {
+    max-width: 60vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 20px;
+    gap: 7px;
+  }
+}
+
 .options__option {
   background-color: white;
   border-radius: 99px;
@@ -62,6 +73,22 @@
 .result__body > p {
   text-align: justify;
   margin: 0 25px 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .result__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .result__body > h1 {
+    margin: 1em 0 .75em
+  }
+
+  .result__body > p {
+    max-width: 50vw;
+  }
 }
 
 .red {
