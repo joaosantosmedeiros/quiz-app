@@ -1,0 +1,119 @@
+{
+  "universes": {
+    "starWars": {
+      "questions": [
+        {"id": 1, "img": "assets/img/st1.jpg", "title": "Como você aborda o poder?", "options": [
+          {"letter": "a", "option": "Poder é conquistado pela dominação.", "alias": "B"},
+          {"letter": "b", "option": "Poder é conquistado pela proteção e paz.", "alias": "A"},
+          {"letter": "c", "option": "Poder é conquistado pela manipulação.", "alias": "B"},
+          {"letter": "d", "option": "Poder é conquistado pela compaixão.", "alias": "A"}
+        ]},
+        {"id": 2, "img": "assets/img/st2.jpg", "title": "Diante de um dilema moral, qual é sua escolha?", "options": [
+          {"letter": "a", "option": "Priorizo meus interesses, custe o que custar.", "alias": "B"},
+          {"letter": "b", "option": "Opto por agir com compaixão, mesmo que isso signifique sacrificar algo.", "alias": "A"},
+          {"letter": "c", "option": "Escolho o caminho que beneficia a mim mesmo.", "alias": "B"},
+          {"letter": "d", "option": "Escolho o caminho que beneficia a todos, mesmo que eu tenha que renunciar a algo.", "alias": "A"}
+        ]},
+        {"id": 3, "img": "assets/img/st3.jpg", "title": "Como você lida com suas emoções intensas?", "options": [
+          {"letter": "a", "option": "Deixo que minhas emoções controlem minhas ações.", "alias": "B"},
+          {"letter": "b", "option": "Busco equilíbrio emocional e ação ponderada.", "alias": "A"},
+          {"letter": "c", "option": "Uso minhas emoções como fonte de poder.", "alias": "B"},
+          {"letter": "d", "option": "Canalizo minhas emoções para alcançar a serenidade.", "alias": "A"}
+        ]},
+        {"id": 4, "img": "assets/img/st4.jpg", "title": "Na resolução de conflitos, qual é sua abordagem?", "options": [
+          {"letter": "a", "option": "Uso a força para impor minha vontade.", "alias": "B"},
+          {"letter": "b", "option": "Busco soluções pacíficas e diplomáticas.", "alias": "A"},
+          {"letter": "c", "option": "Acredito que a força é a única solução.", "alias": "B"},
+          {"letter": "d", "option": "Prefiro a negociação e o entendimento mútuo.", "alias": "A"}
+        ]},
+        {"id": 5, "img": "assets/img/st5.jpg", "title": "O que você valoriza mais em um relacionamento?", "options": [
+          {"letter": "a", "option": "Lealdade inquestionável.", "alias": "B"},
+          {"letter": "b", "option": "Compreensão mútua e respeito.", "alias": "A"},
+          {"letter": "c", "option": "Relações baseadas em submissão.", "alias": "B"},
+          {"letter": "d", "option": "Relações baseadas em colaboração e apoio mútuo.", "alias": "A"}
+        ]},
+        {"id": 6, "img": "assets/img/st6.jpg", "title": "Como você enxerga a relação entre o indivíduo e a comunidade?", "options": [
+          {"letter": "a", "option": "Acredito na supremacia do indivíduo sobre o coletivo.", "alias": "B"},
+          {"letter": "b", "option": "Valorizo a harmonia e a cooperação entre as pessoas.", "alias": "A"},
+          {"letter": "c", "option": "Acredito na superioridade individual como força motriz.", "alias": "B"},
+          {"letter": "d", "option": "Vejo a colaboração como a chave para o sucesso.", "alias": "A"}
+        ]},
+        {"id": 7, "img": "assets/img/st7.jpg", "title": "Diante de um desafio, como você reage?", "options": [
+          {"letter": "a", "option": "Vejo-o como uma oportunidade para demonstrar minha força.", "alias": "B"},
+          {"letter": "b", "option": "Encaro-o como uma chance de aprender e crescer.", "alias": "A"},
+          {"letter": "c", "option": "Encaro-o como uma oportunidade para superação pessoal e coletiva.", "alias": "A"}
+        ]},
+        {"id": 8, "img": "assets/img/st8.jpg", "title": "O que você busca alcançar em sua jornada pessoal?", "options": [
+          {"letter": "a", "option": "Busco o poder máximo, mesmo que isso signifique seguir caminhos questionáveis.", "alias": "B"},
+          {"letter": "b", "option": "Busco o equilíbrio e a sabedoria para viver em harmonia.", "alias": "A"},
+          {"letter": "c", "option": "Busco a dominação e controle sobre os outros.", "alias": "B"},
+          {"letter": "d", "option": "Busco contribuir para o bem-estar e o progresso da sociedade.", "alias": "A"}
+        ]},
+        {"id": 9, "img": "assets/img/st9.jpg", "title": "Qual é sua visão sobre o uso da tecnologia avançada?", "options": [
+          {"letter": "a", "option": "Deve ser usada para impor controle e dominação.", "alias": "B"},
+          {"letter": "b", "option": "Deve ser usada para promover o bem-estar e a evolução da sociedade.", "alias": "A"},
+          {"letter": "c", "option": "A tecnologia é uma ferramenta para manipulação.", "alias": "B"},
+          {"letter": "d", "option": "A tecnologia deve ser usada com responsabilidade, visando o benefício comum.", "alias": "A"}
+        ]}
+      ]
+    },
+    "harryPotter": {
+      "questions": [
+        {"id": 1, "img": "assets/img/hp1.jpg", "title": "Qual é a sua posição sobre a utilização da Feitiçaria Proibida?", "options": [
+          {"letter": "a", "option": "Nunca a utilizei e acredito que deve ser evitada.", "alias": "A"},
+          {"letter": "b", "option": "Já experimentei, mas prefiro me manter distante.", "alias": "A"},
+          {"letter": "c", "option": "Uso ocasionalmente para causas justas.", "alias": "B"},
+          {"letter": "d", "option": "Utilizo frequentemente para alcançar meus objetivos, não importa o meio.", "alias": "B"}
+        ]},
+        {"id": 2, "img": "assets/img/hp2.jpg", "title": "Como você reage diante de criaturas mágicas perigosas?", "options": [
+          {"letter": "a", "option": "Evito confronto e tento encontrar uma solução pacífica.", "alias": "A"},
+          {"letter": "b", "option": "Tomo precauções, mas não hesito em me defender se necessário.", "alias": "A"},
+          {"letter": "c", "option": "Gosto de estudá-las e respeitá-las à distância.", "alias": "B"},
+          {"letter": "d", "option": "Vejo-as como ferramentas úteis para meus propósitos.", "alias": "B"}
+        ]},
+        {"id": 3, "img": "assets/img/hp3.jpg", "title": "Qual é a sua opinião sobre a prática da Adivinhação?", "options": [
+          {"letter": "a", "option": "Não acredito que seja confiável e evito.", "alias": "A"},
+          {"letter": "b", "option": "Aceito-a como uma possibilidade, mas com cautela.", "alias": "A"},
+          {"letter": "c", "option": "Acredito em sua utilidade e a pratico ocasionalmente.", "alias": "B"},
+          {"letter": "d", "option": "Confio plenamente em previsões e as uso para meu benefício.", "alias": "B"}
+        ]},
+        {"id": 4, "img": "assets/img/hp4.jpg", "title": "Como você se relaciona com os trouxas (não-mágicos)?", "options": [
+          {"letter": "a", "option": "Vivo pacificamente entre eles, mantendo o segredo.", "alias": "A"},
+          {"letter": "b", "option": "Prefiro manter distância, mas respeito suas vidas.", "alias": "A"},
+          {"letter": "c", "option": "Acho que somos superiores e não me importo em mostrá-lo.", "alias": "B"},
+          {"letter": "d", "option": "Vejo-os como recursos a serem utilizados para meus fins.", "alias": "B"}
+        ]},
+        {"id": 5, "img": "assets/img/hp5.jpg", "title": "Qual é sua visão sobre duelos mágicos?", "options": [
+          {"letter": "a", "option": "Apenas para autodefesa e situações extremas.", "alias": "A"},
+          {"letter": "b", "option": "Participaria apenas em competições amigáveis.", "alias": "A"},
+          {"letter": "c", "option": "Gosto de aprimorar minhas habilidades e participo frequentemente.", "alias": "B"},
+          {"letter": "d", "option": "Utilizo duelos como meio de alcançar poder e controle.", "alias": "B"}
+        ]},
+        {"id": 6, "img": "assets/img/hp6.jpg", "title": "Como você lida com as restrições impostas pelas leis mágicas?", "options": [
+          {"letter": "a", "option": "Respeito e sigo todas as leis rigorosamente.", "alias": "A"},
+          {"letter": "b", "option": "Seguir as leis é importante, mas há momentos em que podem ser contornadas.", "alias": "A"},
+          {"letter": "c", "option": "Algumas leis são desnecessárias e não hesito em quebrá-las.", "alias": "B"},
+          {"letter": "d", "option": "Vejo as leis como obstáculos e as ignoro quando necessário.", "alias": "B"}
+        ]},
+        {"id": 7, "img": "assets/img/hp7.jpg", "title": "Qual é a sua atitude em relação à amizade entre bruxos e bruxas de sangue puro e nascidos trouxas?", "options": [
+          {"letter": "a", "option": "Acredito na igualdade e sou amigo de todos, independentemente da origem.", "alias": "A"},
+          {"letter": "b", "option": "Tento ser tolerante, mas as diferenças podem ser complicadas.", "alias": "A"},
+          {"letter": "c", "option": "Prefiro me associar principalmente com sangue puro, mas faço exceções.", "alias": "B"},
+          {"letter": "d", "option": "Acho que os nascidos trouxas são inferiores e evito contato próximo.", "alias": "B"}
+        ]},
+        {"id": 8, "img": "assets/img/hp8.jpg", "title": "Como você encara as Relíquias da Morte?", "options": [
+          {"letter": "a", "option": "Vejo-as como lendas e não busco poder nelas.", "alias": "A"},
+          {"letter": "b", "option": "Tenho curiosidade sobre seu significado, mas não as procuro ativamente.", "alias": "A"},
+          {"letter": "c", "option": "Acredito que possuir as Relíquias me concederá grande poder.", "alias": "B"},
+          {"letter": "d", "option": "Busco as Relíquias para alcançar a imortalidade e domínio.", "alias": "B"}
+        ]},
+        {"id": 7, "img": "assets/img/hp9.jpg", "title": "O que você faria diante da escolha entre poder e amor?", "options": [
+          {"letter": "a", "option": "Escolheria o amor, pois é mais valioso que qualquer poder.", "alias": "A"},
+          {"letter": "b", "option": "Tentaria equilibrar ambos, pois ambos são importantes.", "alias": "A"},
+          {"letter": "c", "option": "Escolheria o poder, pois é a chave para a verdadeira grandeza.", "alias": "B"},
+          {"letter": "d", "option": "Abandonaria o amor em busca de mais poder e controle..", "alias": "B"}
+        ]}
+      ]
+    }
+  }
+}
